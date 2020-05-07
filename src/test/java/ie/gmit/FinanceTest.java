@@ -2,11 +2,8 @@ package ie.gmit;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FinanceTest {
 
@@ -28,6 +25,10 @@ public class FinanceTest {
     @Test
     void testVATCalculation() {
         assertEquals(19550, f1.calculateVAT(VehicleList));
+    }
+    @Test
+    void testMonthlyPayment() {
+        assertEquals(1859.38, f1.monthlyPayments(VehicleList, 4, 5));
     }
 
 //    @Test

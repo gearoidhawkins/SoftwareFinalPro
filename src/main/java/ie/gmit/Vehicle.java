@@ -26,7 +26,15 @@ public class Vehicle {
     }
 
     public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
+        if( (manufacturer == "Audi") || (manufacturer == "BMW") )
+        {
+            this.manufacturer = manufacturer;
+        }
+        else
+        {
+            throw new IllegalArgumentException("Employee Number should be 5 digits");
+        }
+
     }
 
     public String getYearOfReg() {

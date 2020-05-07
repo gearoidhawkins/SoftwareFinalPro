@@ -8,10 +8,10 @@ public class Vehicle {
     private String Colour;
     private int mileage;
 
-    private int price;
+    private double price;
 
     //Constructors *******************************************
-    public Vehicle(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, int price) {
+    public Vehicle(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, double price) {
         setManufacturer(manufacturer);
         setYearOfReg(yearOfReg);
         setEngineSize(engineSize);
@@ -61,11 +61,11 @@ public class Vehicle {
         this.mileage = mileage;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }

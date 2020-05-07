@@ -4,75 +4,106 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Organise {
-    public ArrayList<Vehicle> sort(ArrayList<Vehicle> myList, String sortType) {
-        ArrayList<Vehicle> orderedVehicles = new ArrayList<>();
+    ArrayList<Vehicle> orderedVehicles = new ArrayList<>();
+
+    public ArrayList<Vehicle> sortName(ArrayList<Vehicle> myList, String order) {
         ArrayList<String> names = new ArrayList<>();
-        ArrayList<Double> doubles = new ArrayList<>();
-        ArrayList<Integer> ints = new ArrayList<>();
-        int arraySize;
-        if (myList.isEmpty()) {
-            throw new IllegalArgumentException("No vehicles in the list");
-        } else {
-            //put the vehicle make into a list
-            for (Vehicle v : myList) {
-                switch (sortType) {
-                    case "Make":
-                        names.add(v.getManufacturer());
-                        break;
-                    case "Engine":
-                        ints.add(v.getEngineSize());
-                        break;
-                    case "Miles":
-                        ints.add(v.getMileage());
-                        break;
-                    case "Price":
-                        doubles.add(v.getPrice());
-                        break;
-                }
-            }
-
-            if (names.isEmpty() && doubles.isEmpty() && ints.isEmpty() == false) {
-                Collections.sort(ints, Collections.reverseOrder());
-                arraySize = ints.size();
-            } else if (names.isEmpty() && ints.isEmpty() && doubles.isEmpty() == false) {
-                Collections.sort(doubles, Collections.reverseOrder());
-                arraySize = doubles.size();
-            } else if (ints.isEmpty() && doubles.isEmpty() && names.isEmpty() == false) {
-                Collections.sort(names);
-                arraySize = names.size();
-            } else {
-                throw new IllegalArgumentException("Nothing add to array for sorting");
-            }
-
-            for (int i = 0; i < arraySize; i++) {
-                for (Vehicle v : myList) {
-                    switch (sortType) {
-                        case "Make":
-                            String make = v.getManufacturer();
-                            if (names.get(i) == make) {
-                                orderedVehicles.add(v);
-                            }
-                            break;
-                        case "Engine":
-                            int engine = v.getEngineSize();
-                            if (ints.get(i) == engine) {
-                                orderedVehicles.add(v);
-                            }
-                            break;
-                        case "Miles":
-                            if (ints.get(i) == v.getMileage()) {
-                                orderedVehicles.add(v);
-                            }
-                            break;
-                        case "Price":
-                            if (doubles.get(i) == v.getPrice()) {
-                                orderedVehicles.add(v);
-                            }
-                            break;
-                    }
-                }
-            }
-            return orderedVehicles;
+        //gets the names into an array
+        for (Vehicle v : myList) {
+            names.add(v.getManufacturer());
         }
+
+        //sorts them ascending or descending
+        if (order == "Forward") {
+            Collections.sort(names);
+        } else if (order == "Backwards") {
+            Collections.sort(names, Collections.reverseOrder());
+        } else {
+            throw new IllegalArgumentException("No filter chosen");
+        }
+
+        //puts the object in the right order in a new list
+        for (String s : names) {
+            for (Vehicle v : myList) {
+                if (s == v.getManufacturer()) {
+                    orderedVehicles.add(v);
+                }
+            }
+        }
+        return orderedVehicles;
+    }
+
+    public ArrayList<Vehicle> sortMiles(ArrayList<Vehicle> myList, String order) {
+        ArrayList<Integer> miles = new ArrayList<>();
+        for (Vehicle v : myList) {
+            miles.add(v.getMileage());
+        }
+
+        if (order == "Lowest") {
+            Collections.sort(miles);
+        } else if (order == "Highest") {
+            Collections.sort(miles, Collections.reverseOrder());
+        } else {
+            throw new IllegalArgumentException("No filter chosen");
+        }
+
+        for (int i : miles) {
+            for (Vehicle v : myList) {
+                if (i == v.getMileage()) {
+                    orderedVehicles.add(v);
+                }
+            }
+        }
+        return orderedVehicles;
+    }
+
+    public ArrayList<Vehicle> sortEngine(ArrayList<Vehicle> myList, String order) {
+        ArrayList<Integer> engine = new ArrayList<>();
+
+        for (Vehicle v : myList) {
+            engine.add(v.getEngineSize());
+        }
+
+        if (order == "Lowest") {
+            Collections.sort(engine);
+        } else if (order == "Highest") {
+            Collections.sort(engine, Collections.reverseOrder());
+        } else {
+            throw new IllegalArgumentException("No filter chosen");
+        }
+
+        for (int i : engine) {
+            for (Vehicle v : myList) {
+                if (i == v.getEngineSize()) {
+                    orderedVehicles.add(v);
+                }
+            }
+        }
+        return orderedVehicles;
+    }
+
+    public ArrayList<Vehicle> sortPrice(ArrayList<Vehicle> myList, String order) {
+        ArrayList<Double> price = new ArrayList<>();
+
+        for (Vehicle v : myList) {
+            price.add(v.getPrice());
+        }
+
+        if (order == "Lowest") {
+            Collections.sort(price);
+        } else if (order == "Highest") {
+            Collections.sort(price, Collections.reverseOrder());
+        } else {
+            throw new IllegalArgumentException("No filter chosen");
+        }
+
+        for (double d : price) {
+            for (Vehicle v : myList) {
+                if (d == v.getPrice()) {
+                    orderedVehicles.add(v);
+                }
+            }
+        }
+        return orderedVehicles;
     }
 }

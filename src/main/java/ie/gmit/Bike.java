@@ -7,7 +7,6 @@ public class Bike extends Vehicle {
 
     private int topSpeed;
 
-
     // Constructors **************************************************************************************************************
     public Bike(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, int price, boolean hasTransportBox, boolean hasPassengerSeat, int topSpeed) {
         super(manufacturer, yearOfReg, engineSize, colour, mileage, price);
@@ -15,7 +14,6 @@ public class Bike extends Vehicle {
         this.hasPassengerSeat = hasPassengerSeat;
         this.topSpeed = topSpeed;
     }
-
 
     //Getters & Setters **********************************************************************************************************
     public boolean isHasTransportBox() {

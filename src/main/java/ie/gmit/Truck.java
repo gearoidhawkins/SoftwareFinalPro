@@ -1,5 +1,7 @@
 package ie.gmit;
 
+import java.util.ArrayList;
+
 public class Truck {
 
     private String licenceTypeRequired; // B, C1 or C

@@ -12,12 +12,12 @@ public class Vehicle {
 
     //Constructors *******************************************
     public Vehicle(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, int price) {
-        this.manufacturer = manufacturer;
-        this.yearOfReg = yearOfReg;
-        this.engineSize = engineSize;
-        Colour = colour;
-        this.mileage = mileage;
-        this.price = price;
+        setManufacturer(manufacturer);
+        setYearOfReg(yearOfReg);
+        setEngineSize(engineSize);
+        setColour(colour);
+        setMileage(mileage);
+        setPrice(price);
     }
 
     // Getters & Setters *****************************************

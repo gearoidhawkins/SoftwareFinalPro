@@ -9,8 +9,35 @@ public class Truck {
 
 
     // Constructors **************************************************************************************************************
+    public Truck(String licenceTypeRequired, int numberOfSeats, String type) {
+        this.licenceTypeRequired = licenceTypeRequired;
+        this.numberOfSeats = numberOfSeats;
+        Type = type;
+    }
 
 
     //Getters & Setters **********************************************************************************************************
+    public String getLicenceTypeRequired() {
+        return licenceTypeRequired;
+    }
 
+    public void setLicenceTypeRequired(String licenceTypeRequired) {
+        this.licenceTypeRequired = licenceTypeRequired;
+    }
+
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
+    }
+
+    public String getType() {
+        return Type;
+    }
+
+    public void setType(String type) {
+        Type = type;
+    }
 }

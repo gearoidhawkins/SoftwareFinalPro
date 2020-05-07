@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Tractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="fix errors">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Bike.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -96,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -26,12 +26,10 @@ public class Vehicle {
     }
 
     public void setManufacturer(String manufacturer) {
-        if( (manufacturer == "Audi") || (manufacturer == "BMW") || (manufacturer == "Toyota") )
-        {
+        if( (manufacturer == "Audi") || (manufacturer == "BMW") || (manufacturer == "Toyota") ) {
             this.manufacturer = manufacturer;
         }
-        else
-        {
+        else {
             throw new IllegalArgumentException("Not a valid manufacturer");
         }
     }
@@ -41,8 +39,7 @@ public class Vehicle {
     }
 
     public void setYearOfReg(String yearOfReg) {
-        if(yearOfReg == "2021")
-        {
+        if(yearOfReg == "2021") {
             throw new IllegalArgumentException("Not a valid year");
         }
         else
@@ -54,8 +51,7 @@ public class Vehicle {
     }
 
     public void setEngineSize(int engineSize) {
-        if(engineSize < 500)
-        {
+        if(engineSize < 500) {
             throw new IllegalArgumentException("Not a valid engine size");
         }
         else
@@ -67,7 +63,11 @@ public class Vehicle {
     }
 
     public void setColour(String colour) {
-        Colour = colour;
+        if(colour.length() < 3) {
+            throw new IllegalArgumentException("Not a valid colour");
+        }
+        else
+            Colour = colour;
     }
 
     public int getMileage() {
@@ -75,7 +75,11 @@ public class Vehicle {
     }
 
     public void setMileage(int mileage) {
-        this.mileage = mileage;
+        if(mileage < 0) {
+            throw new IllegalArgumentException("Not a valid mileage");
+        }
+        else
+            this.mileage = mileage;
     }
 
     public double getPrice() {
@@ -83,6 +87,10 @@ public class Vehicle {
     }
 
     public void setPrice(double price) {
-        this.price = price;
+        if(price < 0) {
+            throw new IllegalArgumentException("Not a valid price");
+        }
+        else
+            this.price = price;
     }
 }

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="fix errors">
-      <change afterPath="$PROJECT_DIR$/.idea/SoftwareFinalPro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SoftwareFinalPro.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Finance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Finance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/FinanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/FinanceTest.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +27,40 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
-    <option name="SET_USER_NAME_GLOBALLY" value="false" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="3" end1="10" start2="3" end2="7" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="11" end1="11" start2="8" end2="9" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="12" end1="12" start2="10" end2="11" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="13" end1="13" start2="12" end2="21" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="27" end1="30" start2="35" end2="36" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="39" end1="44" start2="45" end2="45" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="45" end1="47" start2="46" end2="46" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="49" end1="50" start2="48" end2="49" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="51" end1="53" start2="50" end2="64" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="61" end1="62" start2="72" end2="73" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="67" end1="68" start2="78" end2="79" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="76" end1="95" start2="87" end2="89" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="99" end1="100" start2="93" end2="94" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="108" end1="126" start2="102" end2="104" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="133" end1="138" start2="111" end2="114" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="153" end1="154" start2="129" end2="129" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="155" end1="157" start2="130" end2="132" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="160" end1="161" start2="135" end2="136" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="162" end1="164" start2="137" end2="139" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="167" end1="168" start2="142" end2="143" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="169" end1="171" start2="144" end2="146" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="174" end1="175" start2="149" end2="150" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="176" end1="178" start2="151" end2="153" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="181" end1="182" start2="156" end2="157" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="183" end1="185" start2="158" end2="160" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="188" end1="189" start2="163" end2="164" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="210" end1="258" start2="185" end2="189" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+      </ranges>
+    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -37,20 +70,25 @@
     </option>
   </component>
   <component name="ProjectId" id="1ba7f68YOj2HV0ay0JPiifYp9NF" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JanuaryExam_AMcK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenExamGH" />
   </component>
-  <component name="RunManager" selected="JUnit.FinanceTest.testLoanLength">
-    <configuration name="FinanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.VehicleTest">
+    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -59,13 +97,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.VehicleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest.testInterestError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +112,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
-      <option name="METHOD_NAME" value="testInterestError" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.testClassTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest.testLoanLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testClassTest.testConstructorNameFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -90,40 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
-      <option name="METHOD_NAME" value="testLoanLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinanceTest.testMonthlyPayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareFinalPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.gmit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
-      <option name="METHOD_NAME" value="testMonthlyPayment" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinanceTest.testPriceError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareFinalPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.gmit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
-      <option name="METHOD_NAME" value="testPriceError" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.testClassTest" />
+      <option name="METHOD_NAME" value="testConstructorNameFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinanceTest.testLoanLength" />
-        <item itemvalue="JUnit.FinanceTest.testInterestError" />
-        <item itemvalue="JUnit.FinanceTest.testPriceError" />
-        <item itemvalue="JUnit.FinanceTest" />
-        <item itemvalue="JUnit.FinanceTest.testMonthlyPayment" />
+        <item itemvalue="JUnit.VehicleTest" />
+        <item itemvalue="JUnit.testClassTest" />
+        <item itemvalue="JUnit.testClassTest.testConstructorNameFail" />
       </list>
     </recent_temporary>
   </component>
@@ -151,44 +154,50 @@
       <updated>1588858450044</updated>
       <workItem from="1588858453046" duration="437000" />
       <workItem from="1588860871329" duration="3122000" />
-      <workItem from="1588865965800" duration="7140000" />
     </task>
-    <task id="LOCAL-00001" summary="minor changes">
-      <created>1588866388887</created>
+    <task id="LOCAL-00001" summary="fix merge">
+      <created>1588865779658</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1588866388887</updated>
+      <updated>1588865779658</updated>
     </task>
-    <task id="LOCAL-00002" summary="Finance start">
-      <created>1588868804619</created>
+    <task id="LOCAL-00002" summary="add extras">
+      <created>1588865902564</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1588868804619</updated>
+      <updated>1588865902565</updated>
     </task>
-    <task id="LOCAL-00003" summary="price to double">
-      <created>1588869078697</created>
+    <task id="LOCAL-00003" summary="add extras">
+      <created>1588868747698</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1588869078697</updated>
+      <updated>1588868747698</updated>
     </task>
-    <task id="LOCAL-00004" summary="VAT">
-      <created>1588869646595</created>
+    <task id="LOCAL-00004" summary="add extras">
+      <created>1588868893956</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1588869646595</updated>
+      <updated>1588868893956</updated>
     </task>
-    <task id="LOCAL-00005" summary="finance class done without error checking">
-      <created>1588871097435</created>
+    <task id="LOCAL-00005" summary="tests">
+      <created>1588869707211</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1588871097435</updated>
+      <updated>1588869707211</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tests">
+      <created>1588874229914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588874229914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

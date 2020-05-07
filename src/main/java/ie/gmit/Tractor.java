@@ -1,6 +1,6 @@
 package ie.gmit;
 
-public class Tractor {
+public class Tractor extends Vehicle{
 
     private int horsePower;
     private int numberOfSpoolValves;
@@ -57,5 +57,22 @@ public class Tractor {
             this.otherAttachments = otherAttachments;
         else
             throw new IllegalArgumentException("not a valid attachment");
+    }
+
+    // Methods ***************************************************************************************************************
+    public String generateReport()
+    {
+        String details = "\nManufacturer: " + getManufacturer() +
+                "\nReg Plate: " + getRegPlate() +
+                "\nEngine Size: " + getEngineSize() +
+                "\nColour: " + getColour() +
+                "\nMileage: " + getMileage() +
+                "\nPrice: " + getPrice() +
+
+                "\nHorsePower: " + horsePower +
+                "\nSpools: " + numberOfSpoolValves +
+                "\n4WD: " + (is4WD?"yes":"no") +
+                "\nAttachments: " + otherAttachments;
+        return details;
     }
 }

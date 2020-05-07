@@ -14,9 +14,9 @@ public class FinanceTest {
 
     @BeforeEach
     void init() {
-        VehicleList.add(new Vehicle("Audi", "2010", 1500, "Red", 120123, 5000));
-        VehicleList.add(new Vehicle("BMW", "2020", 2500, "Black", 0, 65000));
-        VehicleList.add(new Vehicle("Toyota", "2019", 1000, "Silver", 5678, 15000));
+        VehicleList.add(new Car("Audi", "2010", 1500, "Red", 120123, 5000, true, 5, "Saloon") );
+        VehicleList.add(new Bike("BMW", "2020", 2500, "Black", 0, 65000, true, false, 40));
+        VehicleList.add(new Truck("Toyota", "2019", 1000, "Silver", 5678, 15000, "C1", 3, "flatbed"));
         f1 = new Finance();
     }
 

@@ -3,7 +3,7 @@ package ie.gmit;
 public class Vehicle {
 
     private String manufacturer;
-    private String yearOfReg;
+    private String regPlate;
     private int engineSize;
     private String Colour;
     private int mileage;
@@ -11,9 +11,9 @@ public class Vehicle {
     private double price;
 
     //Constructors *******************************************
-    public Vehicle(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, double price) {
+    public Vehicle(String manufacturer, String regPlate, int engineSize, String colour, int mileage, double price) {
         setManufacturer(manufacturer);
-        setYearOfReg(yearOfReg);
+        setRegPlate(regPlate);
         setEngineSize(engineSize);
         setColour(colour);
         setMileage(mileage);
@@ -38,16 +38,16 @@ public class Vehicle {
         }
     }
 
-    public String getYearOfReg() {
-        return yearOfReg;
+    public String getRegPlate() {
+        return regPlate;
     }
 
-    public void setYearOfReg(String yearOfReg) {
-        if(yearOfReg == "2021") {
+    public void setRegPlate(String regPlate) {
+        if(regPlate == "2021") {
             throw new IllegalArgumentException("Not a valid year");
         }
         else
-            this.yearOfReg = yearOfReg;
+            this.regPlate = regPlate;
     }
 
     public int getEngineSize() {
@@ -97,4 +97,18 @@ public class Vehicle {
         else
             this.price = price;
     }
+
+    // Methods ***************************************************************************************************************
+    public String generateReport()
+    {
+        String details = "\nManufacturer: " + manufacturer +
+                "\nReg Plate: " + regPlate +
+                "\nEngine Size: " + engineSize +
+                "\nColour: " + Colour +
+                "\nMileage: " + mileage +
+                "\nPrice: " + price;
+
+        return details;
+    }
+
 }

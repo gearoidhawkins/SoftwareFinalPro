@@ -35,4 +35,10 @@ public class BikeTest {
         Exception e = assertThrows(IllegalArgumentException.class, () -> b1.setTopSpeed(-10) );
         assertEquals("speed must be a positive number", e.getMessage());
     }
+
+    @Test
+    void printDetails()
+    {
+        System.out.println(b1.generateReport());
+    }
 }

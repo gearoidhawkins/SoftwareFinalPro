@@ -16,9 +16,9 @@ public class Bike extends Vehicle {
     }
 
     public Bike(boolean hasTransportBox, boolean hasPassengerSeat, int topSpeed) {
-        this.hasTransportBox = hasTransportBox;
-        this.hasPassengerSeat = hasPassengerSeat;
-        this.topSpeed = topSpeed;
+        setHasTransportBox(hasTransportBox);
+        setHasPassengerSeat(hasPassengerSeat);
+        setTopSpeed(topSpeed);
     }
 
     //Getters & Setters **********************************************************************************************************
@@ -49,4 +49,21 @@ public class Bike extends Vehicle {
         else
             throw new IllegalArgumentException("speed must be a positive number");
     }
+
+    // Methods ***************************************************************************************************************
+    public String generateReport()
+    {
+        String details = "\nManufacturer: " + getManufacturer() +
+                "\nReg Plate: " + getRegPlate() +
+                "\nEngine Size: " + getEngineSize() +
+                "\nColour: " + getColour() +
+                "\nMileage: " + getMileage() +
+                "\nPrice: " + getPrice() +
+
+                "\nTop Speed: " + topSpeed +
+                "\nTransport Box: " + (hasTransportBox?"yes":"no") +
+                "\nRPassengerSeat: " + (hasPassengerSeat?"yes":"no");
+        return details;
+    }
+
 }

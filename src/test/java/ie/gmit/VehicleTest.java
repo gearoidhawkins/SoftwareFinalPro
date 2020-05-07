@@ -25,7 +25,7 @@ public class VehicleTest {
     @Test
     void testGetYearSuccess()
     {
-        assertEquals("2020", v1.getYearOfReg());
+        assertEquals("2020", v1.getRegPlate());
     }
 
     @Test
@@ -57,7 +57,7 @@ public class VehicleTest {
 
     @Test
     void testSetYearFail() {
-        Exception e = assertThrows(IllegalArgumentException.class, () -> v1.setYearOfReg("2021") );
+        Exception e = assertThrows(IllegalArgumentException.class, () -> v1.setRegPlate("2021") );
         assertEquals("Not a valid year", e.getMessage());
     }
 

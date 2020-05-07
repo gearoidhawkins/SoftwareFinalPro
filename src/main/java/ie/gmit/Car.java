@@ -53,4 +53,20 @@ public class Car extends Vehicle {
         else
             throw new IllegalArgumentException("Not a valid body type");
     }
+
+    // Methods ***************************************************************************************************************
+    public String generateReport()
+    {
+        String details = "\nManufacturer: " + getManufacturer() +
+                "\nReg Plate: " + getRegPlate() +
+                "\nEngine Size: " + getEngineSize() +
+                "\nColour: " + getColour() +
+                "\nMileage: " + getMileage() +
+                "\nPrice: " + getPrice() +
+
+                "\nDoors: " + numberOfDoors +
+                "\nBody type: " + bodyType +
+                "\nRight Hand drive: " + (rightHandDrive?"yes":"no");
+        return details;
+    }
 }

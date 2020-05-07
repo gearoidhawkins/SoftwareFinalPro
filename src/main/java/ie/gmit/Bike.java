@@ -1,6 +1,6 @@
 package ie.gmit;
 
-public class Bike extends vehicle {
+public class Bike extends Vehicle {
 
     private boolean hasTransportBox;
     private boolean hasPassengerSeat;

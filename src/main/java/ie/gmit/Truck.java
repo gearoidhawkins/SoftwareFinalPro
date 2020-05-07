@@ -4,9 +4,7 @@ public class Truck {
 
     private String licenceTypeRequired; // B, C1 or C
     private int numberOfSeats;
-
     private String Type; // flatbed, low loader, refrigerated
-
 
     // Constructors **************************************************************************************************************
     public Truck(String licenceTypeRequired, int numberOfSeats, String type) {
@@ -14,7 +12,6 @@ public class Truck {
         this.numberOfSeats = numberOfSeats;
         Type = type;
     }
-
 
     //Getters & Setters **********************************************************************************************************
     public String getLicenceTypeRequired() {

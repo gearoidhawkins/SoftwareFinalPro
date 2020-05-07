@@ -1,6 +1,6 @@
 package ie.gmit;
 
-public class Car extends vehicle {
+public class Car extends Vehicle {
 
     private boolean rightHandDrive;
     private int numberOfDoors;

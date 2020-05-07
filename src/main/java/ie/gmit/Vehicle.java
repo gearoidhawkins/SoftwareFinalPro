@@ -1,6 +1,6 @@
 package ie.gmit;
 
-public class vehicle {
+public class Vehicle {
 
     private String manufacturer;
     private String yearOfReg;
@@ -11,7 +11,7 @@ public class vehicle {
     private int price;
 
     //Constructors *******************************************
-    public vehicle(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, int price) {
+    public Vehicle(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, int price) {
         this.manufacturer = manufacturer;
         this.yearOfReg = yearOfReg;
         this.engineSize = engineSize;

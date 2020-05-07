@@ -25,6 +25,10 @@ public class FinanceTest {
     void testPriceCalculation() {
         assertEquals(85000, f1.calculateTotal(VehicleList));
     }
+    @Test
+    void testVATCalculation() {
+        assertEquals(19550, f1.calculateVAT(VehicleList));
+    }
 
 //    @Test
 //    void testConstructorIDFail()

@@ -8,7 +8,7 @@ public class Car extends Vehicle {
 
     // Constructors **************************************************************************************************************
 
-    public Car(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, int price, boolean rightHandDrive, int numberOfDoors, String bodyType) {
+    public Car(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, double price, boolean rightHandDrive, int numberOfDoors, String bodyType) {
         super(manufacturer, yearOfReg, engineSize, colour, mileage, price);
         this.rightHandDrive = rightHandDrive;
         this.numberOfDoors = numberOfDoors;

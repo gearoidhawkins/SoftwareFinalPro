@@ -11,4 +11,10 @@ public class Finance {
         }
         return total;
     }
+    public double calculateVAT(ArrayList<Vehicle> myList){
+        double total = calculateTotal(myList);
+        double VAT = 0;
+        VAT = (total/100)*23;
+        return VAT;
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="tests">
+    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="">
@@ -32,33 +32,12 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/.idea/workspace.xml">
       <ranges>
-        <range start1="3" end1="10" start2="3" end2="7" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="11" end1="11" start2="8" end2="9" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="12" end1="12" start2="10" end2="11" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="13" end1="13" start2="12" end2="21" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="27" end1="30" start2="35" end2="36" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="39" end1="44" start2="45" end2="45" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="45" end1="47" start2="46" end2="46" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="49" end1="50" start2="48" end2="49" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="51" end1="53" start2="50" end2="64" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="61" end1="62" start2="72" end2="73" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="67" end1="68" start2="78" end2="79" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="76" end1="95" start2="87" end2="89" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="99" end1="100" start2="93" end2="94" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="108" end1="126" start2="102" end2="104" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="133" end1="138" start2="111" end2="114" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="153" end1="154" start2="129" end2="129" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="155" end1="157" start2="130" end2="132" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="160" end1="161" start2="135" end2="136" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="162" end1="164" start2="137" end2="139" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="167" end1="168" start2="142" end2="143" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="169" end1="171" start2="144" end2="146" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="174" end1="175" start2="149" end2="150" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="176" end1="178" start2="151" end2="153" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="181" end1="182" start2="156" end2="157" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="183" end1="185" start2="158" end2="160" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="188" end1="189" start2="163" end2="164" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-        <range start1="210" end1="258" start2="185" end2="189" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
+        <range start1="3" end1="4" start2="3" end2="4" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="34" end1="61" start2="34" end2="37" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="89" end1="90" start2="65" end2="81" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="138" end1="138" start2="129" end2="130" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="199" end1="200" start2="191" end2="199" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
+        <range start1="219" end1="267" start2="218" end2="222" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
       </ranges>
     </file>
   </component>
@@ -87,7 +66,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleTest">
+  <component name="RunManager" selected="JUnit.CarTest">
+    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.CarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
@@ -136,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarTest" />
         <item itemvalue="JUnit.VehicleTest" />
         <item itemvalue="JUnit.testClassTest" />
         <item itemvalue="JUnit.testClassTest.testConstructorNameFail" />
@@ -197,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588874229914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tests">
+      <created>1588874721048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588874721048</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,53 +219,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minor changes" />
-    <MESSAGE value="Finance start" />
-    <MESSAGE value="price to double" />
-    <MESSAGE value="VAT" />
-    <MESSAGE value="finance class done without error checking" />
-    <option name="LAST_COMMIT_MESSAGE" value="finance class done without error checking" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588866020980">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1588866020980" />
-    <state x="1488" y="87" key="CommitChangelistDialog2" timestamp="1588873052438">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state x="1488" y="87" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873052438" />
-    <state x="1786" y="248" key="FileChooserDialogImpl" timestamp="1588868040698">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state x="1786" y="248" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588868040698" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1588873030579">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030579" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1588873030579">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030579" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1588873030578">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030578" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1588873030579">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030579" />
-    <state x="1718" y="209" key="MultipleFileMergeDialog" timestamp="1588871225523">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state x="1718" y="209" key="MultipleFileMergeDialog/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588871225523" />
-    <state x="1815" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588871212166">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state x="1815" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588871212166" />
-    <state x="1702" y="90" width="607" height="804" key="find.popup" timestamp="1588869018988">
-      <screen x="1366" y="0" width="1280" height="984" />
-    </state>
-    <state x="1702" y="90" width="607" height="804" key="find.popup/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588869018988" />
+    <MESSAGE value="fix merge" />
+    <MESSAGE value="add extras" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
   </component>
 </project>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="tests">
+    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="fix errors">
+      <change afterPath="$PROJECT_DIR$/.idea/SoftwareFinalPro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Finance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Finance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/FinanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/FinanceTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +26,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -31,25 +37,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1ba7f68YOj2HV0ay0JPiifYp9NF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenExamGH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JanuaryExam_AMcK" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.VehicleTest">
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FinanceTest.testLoanLength">
+    <configuration name="FinanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -58,13 +59,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.VehicleTest" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinanceTest.testInterestError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -73,13 +74,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.testClassTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
+      <option name="METHOD_NAME" value="testInterestError" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testClassTest.testConstructorNameFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinanceTest.testLoanLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +90,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.testClassTest" />
-      <option name="METHOD_NAME" value="testConstructorNameFail" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
+      <option name="METHOD_NAME" value="testLoanLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceTest.testMonthlyPayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
+      <option name="METHOD_NAME" value="testMonthlyPayment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceTest.testPriceError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
+      <option name="METHOD_NAME" value="testPriceError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,9 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VehicleTest" />
-        <item itemvalue="JUnit.testClassTest" />
-        <item itemvalue="JUnit.testClassTest.testConstructorNameFail" />
+        <item itemvalue="JUnit.FinanceTest.testLoanLength" />
+        <item itemvalue="JUnit.FinanceTest.testInterestError" />
+        <item itemvalue="JUnit.FinanceTest.testPriceError" />
+        <item itemvalue="JUnit.FinanceTest" />
+        <item itemvalue="JUnit.FinanceTest.testMonthlyPayment" />
       </list>
     </recent_temporary>
   </component>
@@ -115,41 +151,42 @@
       <updated>1588858450044</updated>
       <workItem from="1588858453046" duration="437000" />
       <workItem from="1588860871329" duration="3122000" />
+      <workItem from="1588865965800" duration="7140000" />
     </task>
-    <task id="LOCAL-00001" summary="fix merge">
-      <created>1588865779658</created>
+    <task id="LOCAL-00001" summary="minor changes">
+      <created>1588866388887</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1588865779658</updated>
+      <updated>1588866388887</updated>
     </task>
-    <task id="LOCAL-00002" summary="add extras">
-      <created>1588865902564</created>
+    <task id="LOCAL-00002" summary="Finance start">
+      <created>1588868804619</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1588865902565</updated>
+      <updated>1588868804619</updated>
     </task>
-    <task id="LOCAL-00003" summary="add extras">
-      <created>1588868747698</created>
+    <task id="LOCAL-00003" summary="price to double">
+      <created>1588869078697</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1588868747698</updated>
+      <updated>1588869078697</updated>
     </task>
-    <task id="LOCAL-00004" summary="add extras">
-      <created>1588868893956</created>
+    <task id="LOCAL-00004" summary="VAT">
+      <created>1588869646595</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1588868893956</updated>
+      <updated>1588869646595</updated>
     </task>
-    <task id="LOCAL-00005" summary="tests">
-      <created>1588869707211</created>
+    <task id="LOCAL-00005" summary="finance class done without error checking">
+      <created>1588871097435</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1588869707211</updated>
+      <updated>1588871097435</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -171,9 +208,53 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix merge" />
-    <MESSAGE value="add extras" />
-    <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="Finance start" />
+    <MESSAGE value="price to double" />
+    <MESSAGE value="VAT" />
+    <MESSAGE value="finance class done without error checking" />
+    <option name="LAST_COMMIT_MESSAGE" value="finance class done without error checking" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588866020980">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1588866020980" />
+    <state x="1488" y="87" key="CommitChangelistDialog2" timestamp="1588873052438">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1488" y="87" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873052438" />
+    <state x="1786" y="248" key="FileChooserDialogImpl" timestamp="1588868040698">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1786" y="248" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588868040698" />
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1588873030579">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030579" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1588873030579">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030579" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1588873030578">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030578" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1588873030579">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588873030579" />
+    <state x="1718" y="209" key="MultipleFileMergeDialog" timestamp="1588871225523">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1718" y="209" key="MultipleFileMergeDialog/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588871225523" />
+    <state x="1815" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588871212166">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1815" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588871212166" />
+    <state x="1702" y="90" width="607" height="804" key="find.popup" timestamp="1588869018988">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1702" y="90" width="607" height="804" key="find.popup/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1588869018988" />
   </component>
 </project>

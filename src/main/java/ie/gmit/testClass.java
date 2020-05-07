@@ -13,7 +13,7 @@ public class testClass {
 
 
     public String getName() {
-        return name;
+        return 1;
     }
 
     public void setName(String name) {

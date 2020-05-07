@@ -26,15 +26,14 @@ public class Vehicle {
     }
 
     public void setManufacturer(String manufacturer) {
-        if( (manufacturer == "Audi") || (manufacturer == "BMW") )
+        if( (manufacturer == "Audi") || (manufacturer == "BMW") || (manufacturer == "Toyota") )
         {
             this.manufacturer = manufacturer;
         }
         else
         {
-            throw new IllegalArgumentException("Employee Number should be 5 digits");
+            throw new IllegalArgumentException("Not a valid manufacturer");
         }
-
     }
 
     public String getYearOfReg() {
@@ -42,7 +41,12 @@ public class Vehicle {
     }
 
     public void setYearOfReg(String yearOfReg) {
-        this.yearOfReg = yearOfReg;
+        if(yearOfReg == "2021")
+        {
+            throw new IllegalArgumentException("Not a valid year");
+        }
+        else
+            this.yearOfReg = yearOfReg;
     }
 
     public int getEngineSize() {
@@ -50,7 +54,12 @@ public class Vehicle {
     }
 
     public void setEngineSize(int engineSize) {
-        this.engineSize = engineSize;
+        if(engineSize < 500)
+        {
+            throw new IllegalArgumentException("Not a valid engine size");
+        }
+        else
+            this.engineSize = engineSize;
     }
 
     public String getColour() {

@@ -10,9 +10,15 @@ public class Car extends Vehicle {
 
     public Car(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, double price, boolean rightHandDrive, int numberOfDoors, String bodyType) {
         super(manufacturer, yearOfReg, engineSize, colour, mileage, price);
-        this.rightHandDrive = rightHandDrive;
-        this.numberOfDoors = numberOfDoors;
-        this.bodyType = bodyType;
+        setRightHandDrive(rightHandDrive);
+        setNumberOfDoors(numberOfDoors);
+        setBodyType(bodyType);
+    }
+
+    public Car(boolean rightHandDrive, int numberOfDoors, String bodyType) {
+        setRightHandDrive(rightHandDrive);
+        setNumberOfDoors(numberOfDoors);
+        setBodyType(bodyType);
     }
 
     //Getters & Setters **********************************************************************************************************
@@ -29,7 +35,11 @@ public class Car extends Vehicle {
     }
 
     public void setNumberOfDoors(int numberOfDoors) {
-        this.numberOfDoors = numberOfDoors;
+        if(numberOfDoors <= 5) {
+            this.numberOfDoors = numberOfDoors;
+        }
+        else
+            throw new IllegalArgumentException("Too many doors");
     }
 
     public String getBodyType() {
@@ -37,6 +47,10 @@ public class Car extends Vehicle {
     }
 
     public void setBodyType(String bodyType) {
-        this.bodyType = bodyType;
+        if( bodyType.equalsIgnoreCase("Saloon") || bodyType.equalsIgnoreCase("Hatchback") || bodyType.equalsIgnoreCase("Estate") ) {
+            this.bodyType = bodyType;
+        }
+        else
+            throw new IllegalArgumentException("Not a valid body type");
     }
 }

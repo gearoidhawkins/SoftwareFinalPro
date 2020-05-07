@@ -20,6 +20,10 @@ public class Vehicle {
         setPrice(price);
     }
 
+    public Vehicle() {
+
+    }
+
     // Getters & Setters *****************************************
     public String getManufacturer() {
         return manufacturer;

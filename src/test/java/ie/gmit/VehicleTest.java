@@ -55,7 +55,6 @@ public class VehicleTest {
         assertEquals("Not a valid manufacturer", e.getMessage());
     }
 
-
     @Test
     void testSetYearFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> v1.setYearOfReg("2021") );

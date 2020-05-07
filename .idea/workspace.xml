@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/BikeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TruckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Tractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Tractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ie/gmit/testClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ie/gmit/testClassTest.class" beforeDir="false" />
     </list>
-    <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SoftwareFinalPro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +30,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="4" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="34" end1="61" start2="34" end2="37" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="89" end1="90" start2="65" end2="81" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="138" end1="138" start2="129" end2="130" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="199" end1="200" start2="191" end2="199" changelist="f9cd0ba5-7539-448a-9235-4c176269ec83" />
-        <range start1="219" end1="267" start2="218" end2="222" changelist="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" />
-      </ranges>
-    </file>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -52,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenExamGH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,8 +55,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest">
-    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BikeTest">
+    <configuration name="BikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -76,13 +65,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.CarTest" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.BikeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TractorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +80,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.VehicleTest" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.TractorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TractorTest.testSetPowerFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +95,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.testClassTest" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.TractorTest" />
+      <option name="METHOD_NAME" value="testSetPowerFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TruckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.TruckTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testClassTest.testConstructorNameFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TruckTest.testSetLicenceFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.testClassTest" />
-      <option name="METHOD_NAME" value="testConstructorNameFail" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.TruckTest" />
+      <option name="METHOD_NAME" value="testSetLicenceFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarTest" />
-        <item itemvalue="JUnit.VehicleTest" />
-        <item itemvalue="JUnit.testClassTest" />
-        <item itemvalue="JUnit.testClassTest.testConstructorNameFail" />
+        <item itemvalue="JUnit.BikeTest" />
+        <item itemvalue="JUnit.TractorTest" />
+        <item itemvalue="JUnit.TractorTest.testSetPowerFail" />
+        <item itemvalue="JUnit.TruckTest" />
+        <item itemvalue="JUnit.TruckTest.testSetLicenceFail" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +155,7 @@
       <updated>1588858450044</updated>
       <workItem from="1588858453046" duration="437000" />
       <workItem from="1588860871329" duration="3122000" />
+      <workItem from="1588876863238" duration="1761000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>

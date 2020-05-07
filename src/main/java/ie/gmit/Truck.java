@@ -10,9 +10,9 @@ public class Truck {
 
     // Constructors **************************************************************************************************************
     public Truck(String licenceTypeRequired, int numberOfSeats, String type) {
-        this.licenceTypeRequired = licenceTypeRequired;
-        this.numberOfSeats = numberOfSeats;
-        Type = type;
+        setLicenceTypeRequired(licenceTypeRequired);
+        setNumberOfSeats(numberOfSeats);
+        setType(type);
     }
 
     //Getters & Setters **********************************************************************************************************
@@ -21,7 +21,11 @@ public class Truck {
     }
 
     public void setLicenceTypeRequired(String licenceTypeRequired) {
-        this.licenceTypeRequired = licenceTypeRequired;
+        if(licenceTypeRequired.equalsIgnoreCase("b") || licenceTypeRequired.equalsIgnoreCase("c1") || licenceTypeRequired.equalsIgnoreCase("c") ) {
+            this.licenceTypeRequired = licenceTypeRequired;
+        }
+        else
+            throw new IllegalArgumentException("not a valid licence type");
     }
 
     public int getNumberOfSeats() {
@@ -29,7 +33,10 @@ public class Truck {
     }
 
     public void setNumberOfSeats(int numberOfSeats) {
-        this.numberOfSeats = numberOfSeats;
+        if(( numberOfSeats > 0)  && numberOfSeats < 4)
+            this.numberOfSeats = numberOfSeats;
+        else
+            throw new IllegalArgumentException("not the correct amount of seats");
     }
 
     public String getType() {
@@ -37,6 +44,10 @@ public class Truck {
     }
 
     public void setType(String type) {
-        Type = type;
+        if(type.equalsIgnoreCase("Flatbed") || type.equalsIgnoreCase("low loader") || type.equalsIgnoreCase("refrigerated") ) {
+            Type = type;
+        }
+        else
+            throw new IllegalArgumentException("not a valid truck type");
     }
 }

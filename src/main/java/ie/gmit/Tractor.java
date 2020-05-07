@@ -9,10 +9,10 @@ public class Tractor {
 
     // Constructors **************************************************************************************************************
     public Tractor(int horsePower, int numberOfSpoolValves, boolean is4WD, String otherAttachments) {
-        this.horsePower = horsePower;
-        this.numberOfSpoolValves = numberOfSpoolValves;
-        this.is4WD = is4WD;
-        this.otherAttachments = otherAttachments;
+        setHorsePower(horsePower);
+        setNumberOfSpoolValves(numberOfSpoolValves);
+        setIs4WD(is4WD);
+        setOtherAttachments(otherAttachments);
     }
 
     //Getters & Setters **********************************************************************************************************
@@ -21,7 +21,11 @@ public class Tractor {
     }
 
     public void setHorsePower(int horsePower) {
-        this.horsePower = horsePower;
+        if(horsePower > 30) {
+            this.horsePower = horsePower;
+        }
+        else
+            throw new IllegalArgumentException("horse power too low");
     }
 
     public int getNumberOfSpoolValves() {
@@ -29,7 +33,11 @@ public class Tractor {
     }
 
     public void setNumberOfSpoolValves(int numberOfSpoolValves) {
-        this.numberOfSpoolValves = numberOfSpoolValves;
+        if( (numberOfSpoolValves < 1) || (numberOfSpoolValves > 4) ) {
+            throw new IllegalArgumentException("not a valid spool valve number");
+        }
+        else
+            this.numberOfSpoolValves = numberOfSpoolValves;
     }
 
     public boolean isIs4WD() {
@@ -45,6 +53,9 @@ public class Tractor {
     }
 
     public void setOtherAttachments(String otherAttachments) {
-        this.otherAttachments = otherAttachments;
+        if(otherAttachments.equalsIgnoreCase("Loader") || otherAttachments.equalsIgnoreCase("Front Linkage"))
+            this.otherAttachments = otherAttachments;
+        else
+            throw new IllegalArgumentException("not a valid attachment");
     }
 }

@@ -10,6 +10,12 @@ public class Bike extends Vehicle {
     // Constructors **************************************************************************************************************
     public Bike(String manufacturer, String yearOfReg, int engineSize, String colour, int mileage, double price, boolean hasTransportBox, boolean hasPassengerSeat, int topSpeed) {
         super(manufacturer, yearOfReg, engineSize, colour, mileage, price);
+        setHasTransportBox(hasTransportBox);
+        setHasPassengerSeat(hasPassengerSeat);
+        setTopSpeed(topSpeed);
+    }
+
+    public Bike(boolean hasTransportBox, boolean hasPassengerSeat, int topSpeed) {
         this.hasTransportBox = hasTransportBox;
         this.hasPassengerSeat = hasPassengerSeat;
         this.topSpeed = topSpeed;
@@ -37,6 +43,10 @@ public class Bike extends Vehicle {
     }
 
     public void setTopSpeed(int topSpeed) {
-        this.topSpeed = topSpeed;
+        if(topSpeed >= 0) {
+            this.topSpeed = topSpeed;
+        }
+        else
+            throw new IllegalArgumentException("speed must be a positive number");
     }
 }

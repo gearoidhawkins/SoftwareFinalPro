@@ -32,7 +32,8 @@ public class TractorTest {
 
     @Test
     void testGetAttachmentsSuccess() {
-        assertEquals("Loader", t1.getOtherAttachments());
+        Tractor t2 = new Tractor(200, 2, true, "Front Linkage");
+        assertEquals("Front Linkage", t2.getOtherAttachments());
     }
 
     @Test
@@ -41,9 +42,16 @@ public class TractorTest {
         assertEquals("horse power too low", e.getMessage());
     }
 
+
     @Test
-    void testSetSpoolFail() {
+    void testSetSpoolHighFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> t1.setNumberOfSpoolValves(7) );
+        assertEquals("not a valid spool valve number", e.getMessage());
+    }
+
+    @Test
+    void testSetSpoolLowFail() {
+        Exception e = assertThrows(IllegalArgumentException.class, () -> t1.setNumberOfSpoolValves(0) );
         assertEquals("not a valid spool valve number", e.getMessage());
     }
 
@@ -51,5 +59,44 @@ public class TractorTest {
     void testSetAttachmentFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> t1.setOtherAttachments("Grass") );
         assertEquals("not a valid attachment", e.getMessage());
+    }
+
+    @Test
+    void testReportYesSuccess() {
+
+        String correctResult =
+                "\nManufacturer: " + "null" +
+                "\nReg Plate: " + "null" +
+                "\nEngine Size: " + "0" +
+                "\nColour: " + "null" +
+                "\nMileage: " + "0" +
+                "\nPrice: " + "0.0" +
+
+                "\nHorsePower: " + "150" +
+                "\nSpools: " + "3" +
+                "\n4WD: " + "yes" +
+                "\nAttachments: " + "Loader";
+
+        assertEquals(correctResult, t1.generateReport());
+    }
+
+    @Test
+    void testReportNoSuccess() {
+
+        t1.setIs4WD(false);
+        String correctResult =
+                "\nManufacturer: " + "null" +
+                        "\nReg Plate: " + "null" +
+                        "\nEngine Size: " + "0" +
+                        "\nColour: " + "null" +
+                        "\nMileage: " + "0" +
+                        "\nPrice: " + "0.0" +
+
+                        "\nHorsePower: " + "150" +
+                        "\nSpools: " + "3" +
+                        "\n4WD: " + "no" +
+                        "\nAttachments: " + "Loader";
+
+        assertEquals(correctResult, t1.generateReport());
     }
 }

@@ -19,7 +19,8 @@ public class CarTest {
     @Test
     void testisRightSuccess()
     {
-        assertEquals(true, c1.isRightHandDrive());
+        Car c2 = new Car(true, 3, "Hatchback");
+        assertEquals(true, c2.isRightHandDrive());
     }
 
     @Test
@@ -29,9 +30,9 @@ public class CarTest {
     }
 
     @Test
-    void testBodyTypeSuccess()
-    {
-        assertEquals("Saloon", c1.getBodyType());
+    void testBodyTypeSuccess() {
+        Car c3 = new Car(true, 3, "Estate");
+        assertEquals("Estate", c3.getBodyType());
     }
 
     @Test
@@ -44,5 +45,43 @@ public class CarTest {
     void testSetBodyTypeFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> c1.setBodyType("boat") );
         assertEquals("Not a valid body type", e.getMessage());
+    }
+
+    @Test
+    void testReportYesSuccess() {
+
+        String correctResult =
+                "\nManufacturer: " + "null" +
+                        "\nReg Plate: " + "null" +
+                        "\nEngine Size: " + "0" +
+                        "\nColour: " + "null" +
+                        "\nMileage: " + "0" +
+                        "\nPrice: " + "0.0" +
+
+                        "\nDoors: " + "5" +
+                        "\nBody type: " + "Saloon" +
+                        "\nRight Hand drive: " + "yes";
+
+        assertEquals(correctResult, c1.generateReport());
+    }
+
+    @Test
+    void testReportNoSuccess() {
+
+        c1.setRightHandDrive(false);
+
+        String correctResult =
+                "\nManufacturer: " + "null" +
+                        "\nReg Plate: " + "null" +
+                        "\nEngine Size: " + "0" +
+                        "\nColour: " + "null" +
+                        "\nMileage: " + "0" +
+                        "\nPrice: " + "0.0" +
+
+                        "\nDoors: " + "5" +
+                        "\nBody type: " + "Saloon" +
+                        "\nRight Hand drive: " + "no";
+
+        assertEquals(correctResult, c1.generateReport());
     }
 }

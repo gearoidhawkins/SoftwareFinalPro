@@ -22,15 +22,15 @@ public class TruckTest {
     }
 
     @Test
-    void testGetSeatsSuccess()
-    {
-        assertEquals(3, t1.getNumberOfSeats() );
+    void testGetSeatsSuccess() {
+        Truck t2 = new Truck("c1", 3, "low loader");
+        assertEquals(3, t2.getNumberOfSeats() );
     }
 
     @Test
-    void testGetTypeSuccess()
-    {
-        assertEquals("Flatbed", t1.getType() );
+    void testGetTypeSuccess() {
+        Truck t3 = new Truck("c", 3, "refrigerated");
+        assertEquals("refrigerated", t3.getType() );
     }
 
     @Test
@@ -40,8 +40,14 @@ public class TruckTest {
     }
 
     @Test
-    void testSetSeatsFail() {
+    void testSetSeatsHighFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> t1.setNumberOfSeats(6) );
+        assertEquals("not the correct amount of seats", e.getMessage());
+    }
+
+    @Test
+    void testSetSeatsLowFail() {
+        Exception e = assertThrows(IllegalArgumentException.class, () -> t1.setNumberOfSeats(-6) );
         assertEquals("not the correct amount of seats", e.getMessage());
     }
 
@@ -49,5 +55,23 @@ public class TruckTest {
     void testSetTypeFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> t1.setType("Boat") );
         assertEquals("not a valid truck type", e.getMessage());
+    }
+
+    @Test
+    void testReportSuccess() {
+
+        String correctResult =
+                "\nManufacturer: " + "null" +
+                        "\nReg Plate: " + "null" +
+                        "\nEngine Size: " + "0" +
+                        "\nColour: " + "null" +
+                        "\nMileage: " + "0" +
+                        "\nPrice: " + "0.0" +
+
+                        "\nLicence: " + "b" +
+                        "\nSeats: " + "3" +
+                        "\nType: " + "Flatbed";
+
+        assertEquals(correctResult, t1.generateReport());
     }
 }

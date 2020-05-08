@@ -37,8 +37,40 @@ public class BikeTest {
     }
 
     @Test
-    void printDetails()
-    {
-        System.out.println(b1.generateReport());
+    void testReportYesSuccess() {
+
+        String correctResult =
+                "\nManufacturer: " + "null" +
+                        "\nReg Plate: " + "null" +
+                        "\nEngine Size: " + "0" +
+                        "\nColour: " + "null" +
+                        "\nMileage: " + "0" +
+                        "\nPrice: " + "0.0" +
+
+                        "\nTop Speed: " + "30" +
+                        "\nTransport Box: " + "yes" +
+                        "\nRPassengerSeat: " + "yes";
+
+        assertEquals(correctResult, b1.generateReport());
+    }
+
+    @Test
+    void testReportNoSuccess() {
+
+        b1.setHasPassengerSeat(false);
+        b1.setHasTransportBox(false);
+        String correctResult =
+                "\nManufacturer: " + "null" +
+                        "\nReg Plate: " + "null" +
+                        "\nEngine Size: " + "0" +
+                        "\nColour: " + "null" +
+                        "\nMileage: " + "0" +
+                        "\nPrice: " + "0.0" +
+
+                        "\nTop Speed: " + "30" +
+                        "\nTransport Box: " + "no" +
+                        "\nRPassengerSeat: " + "no";
+
+        assertEquals(correctResult, b1.generateReport());
     }
 }

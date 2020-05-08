@@ -84,4 +84,18 @@ public class VehicleTest {
         Exception e = assertThrows(IllegalArgumentException.class, () -> v1.setPrice(-10) );
         assertEquals("Not a valid price", e.getMessage());
     }
+
+    @Test
+    void testReportSuccess() {
+        String correctResult =
+                "\nManufacturer: " + "Audi" +
+                        "\nReg Plate: " + "2020" +
+                        "\nEngine Size: " + "2000" +
+                        "\nColour: " + "Red" +
+                        "\nMileage: " + "200000" +
+                        "\nPrice: " + "10000.0"
+                ;
+
+        assertEquals(correctResult, v1.generateReport());
+    }
 }

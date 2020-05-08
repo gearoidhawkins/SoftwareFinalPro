@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/BikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/TruckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TruckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" afterDir="false" />
     </list>
     <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FinanceTest">
-    <configuration name="BikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BikeTest.testReportNoSuccess">
+    <configuration name="BikeTest.testReportNoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -59,28 +63,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
       <option name="MAIN_CLASS_NAME" value="ie.gmit.BikeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BikeTest.printDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareFinalPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.gmit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.BikeTest" />
-      <option name="METHOD_NAME" value="printDetails" />
+      <option name="METHOD_NAME" value="testReportNoSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.testReportSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +78,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.BikeTest" />
+      <option name="METHOD_NAME" value="testReportSuccess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TractorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.testBodyTypeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.CarTest" />
+      <option name="METHOD_NAME" value="testBodyTypeSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.testReportNoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.CarTest" />
+      <option name="METHOD_NAME" value="testReportNoSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TractorTest.testReportNoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
         <pattern>
@@ -105,22 +127,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
       <option name="MAIN_CLASS_NAME" value="ie.gmit.TractorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TractorTest.testSetPowerFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareFinalPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.gmit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.TractorTest" />
-      <option name="METHOD_NAME" value="testSetPowerFail" />
+      <option name="METHOD_NAME" value="testReportNoSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinanceTest" />
-        <item itemvalue="JUnit.BikeTest" />
-        <item itemvalue="JUnit.BikeTest.printDetails" />
-        <item itemvalue="JUnit.TractorTest" />
-        <item itemvalue="JUnit.TractorTest.testSetPowerFail" />
+        <item itemvalue="JUnit.BikeTest.testReportNoSuccess" />
+        <item itemvalue="JUnit.TractorTest.testReportNoSuccess" />
+        <item itemvalue="JUnit.CarTest.testBodyTypeSuccess" />
+        <item itemvalue="JUnit.CarTest.testReportNoSuccess" />
+        <item itemvalue="JUnit.BikeTest.testReportSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +156,7 @@
       <workItem from="1588858453046" duration="437000" />
       <workItem from="1588860871329" duration="3122000" />
       <workItem from="1588876863238" duration="7868000" />
-      <workItem from="1588931690732" duration="524000" />
+      <workItem from="1588931690732" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>
@@ -214,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588884230121</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Included Jacoco">
+      <created>1588932278408</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588932278409</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +252,7 @@
     <MESSAGE value="add extras" />
     <MESSAGE value="All tests for vehicle sub classes done" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="Included Jacoco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Included Jacoco" />
   </component>
 </project>

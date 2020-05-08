@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="changed variables to private that did not need to be public">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/BikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/OrganiseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/OrganiseTest.java" afterDir="false" />
+    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/SalesPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/SalesPersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/TruckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TruckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" afterDir="false" />
     </list>
     <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FinanceTest">
+  <component name="RunManager" selected="JUnit.SalesPersonTest">
     <configuration name="BikeTest.testReportNoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareFinalPro" />
       <extension name="coverage">
@@ -63,38 +61,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ie.gmit" />
       <option name="MAIN_CLASS_NAME" value="ie.gmit.BikeTest" />
-      <option name="METHOD_NAME" value="testReportNoSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.testBodyTypeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareFinalPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.gmit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.CarTest" />
-      <option name="METHOD_NAME" value="testBodyTypeSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.testReportNoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareFinalPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.gmit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.gmit" />
-      <option name="MAIN_CLASS_NAME" value="ie.gmit.CarTest" />
       <option name="METHOD_NAME" value="testReportNoSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -112,6 +78,37 @@
       <option name="PACKAGE_NAME" value="ie.gmit" />
       <option name="MAIN_CLASS_NAME" value="ie.gmit.FinanceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesPersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.SalesPersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesPersonTest.testGetFirstNameSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareFinalPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.SalesPersonTest" />
+      <option name="METHOD_NAME" value="testGetFirstNameSuccess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesPersonTest" />
+        <item itemvalue="JUnit.SalesPersonTest.testGetFirstNameSuccess" />
         <item itemvalue="JUnit.FinanceTest" />
         <item itemvalue="JUnit.BikeTest.testReportNoSuccess" />
         <item itemvalue="JUnit.TractorTest.testReportNoSuccess" />
-        <item itemvalue="JUnit.CarTest.testBodyTypeSuccess" />
-        <item itemvalue="JUnit.CarTest.testReportNoSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +152,8 @@
       <workItem from="1588858453046" duration="437000" />
       <workItem from="1588860871329" duration="3122000" />
       <workItem from="1588876863238" duration="7868000" />
-      <workItem from="1588931690732" duration="3140000" />
+      <workItem from="1588931690732" duration="3849000" />
+      <workItem from="1588935912994" duration="2363000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>
@@ -241,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588934569372</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Changed variables to private that did not need to be public&#10;Improved code by swapping some assertEquals with assertTrue">
+      <created>1588934871881</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588934871881</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +274,7 @@
     <MESSAGE value="Brought code coverage from 85% to 99%. Only finance left to do" />
     <MESSAGE value="100% code coverage" />
     <MESSAGE value="changed variables to private that did not need to be public" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed variables to private that did not need to be public" />
+    <MESSAGE value="Changed variables to private that did not need to be public&#10;Improved code by swapping some assertEquals with assertTrue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed variables to private that did not need to be public&#10;Improved code by swapping some assertEquals with assertTrue" />
   </component>
 </project>

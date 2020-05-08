@@ -41,7 +41,6 @@ class TractorTest {
         assertEquals("horse power too low", e.getMessage());
     }
 
-
     @Test
     void testSetSpoolHighFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> t1.setNumberOfSpoolValves(7) );

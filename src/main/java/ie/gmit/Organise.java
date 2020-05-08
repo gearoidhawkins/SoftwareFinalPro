@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Organise {
-    ArrayList<Vehicle> orderedVehicles = new ArrayList<>();
+    private ArrayList<Vehicle> orderedVehicles = new ArrayList<>();
 
     public ArrayList<Vehicle> sortName(ArrayList<Vehicle> myList, String order) {
         ArrayList<String> names = new ArrayList<>();

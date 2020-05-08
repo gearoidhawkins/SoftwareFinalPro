@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class FinanceTest {
+class FinanceTest {
 
     private Finance f1;
-    ArrayList<Vehicle> VehicleList = new ArrayList<Vehicle>();
-    ArrayList<Vehicle> NoVehiclesList = new ArrayList<Vehicle>();
+    private ArrayList<Vehicle> VehicleList = new ArrayList<>();
+    private ArrayList<Vehicle> NoVehiclesList = new ArrayList<>();
 
     @BeforeEach
     void init() {
@@ -21,30 +21,43 @@ public class FinanceTest {
     }
 
     @Test
-    void testPriceCalculation() {
+    void testPriceCalculationSuccess() {
         assertEquals(85000, f1.calculateTotal(VehicleList));
     }
     @Test
-    void testVATCalculation() {
+    void testVATCalculationSuccess() {
         assertEquals(19550, f1.calculateVAT(VehicleList));
     }
     @Test
-    void testMonthlyPayment() {
+    void testMonthlyPaymentSuccess() {
         assertEquals(1859.38, f1.monthlyPayments(VehicleList, 4, 5));
     }
 
     @Test
-    void testListError() {
+    void testTotalEmptyError() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> f1.calculateTotal(NoVehiclesList) );
         assertEquals("No vehicles in the list", e.getMessage());
     }
+
+    @Test
+    void testVATEmptyError() {
+        Exception e = assertThrows(IllegalArgumentException.class, () -> f1.calculateVAT(NoVehiclesList) );
+        assertEquals("No vehicles in the list", e.getMessage());
+    }
+
+    @Test
+    void testMonthlyEmptyError() {
+        Exception e = assertThrows(IllegalArgumentException.class, () -> f1.monthlyPayments(NoVehiclesList, 0,0) );
+        assertEquals("No vehicles in the list", e.getMessage());
+    }
+
     @Test
     void testInterestError() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> f1.monthlyPayments(VehicleList, 4, 20) );
         assertEquals("Interest Rate is too high as its >10%", e.getMessage());
     }
     @Test
-    void testLoanLength() {
+    void testLoanLengthFail() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> f1.monthlyPayments(VehicleList, 6, 5) );
         assertEquals("Loan length is too long >5 years", e.getMessage());
     }

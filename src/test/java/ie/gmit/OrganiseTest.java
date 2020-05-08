@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class OrganiseTest {
+class OrganiseTest {
 
     private Organise O1;
-    ArrayList<Vehicle> VehicleList = new ArrayList<Vehicle>();
-    ArrayList<Vehicle> TestList = new ArrayList<Vehicle>();
+    private ArrayList<Vehicle> VehicleList = new ArrayList<>();
+    private ArrayList<Vehicle> TestList = new ArrayList<>();
 
     @BeforeEach
     void init() {
@@ -23,7 +23,7 @@ public class OrganiseTest {
     void testNameSortingForward() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortName(VehicleList, "Forward");
-        ArrayList<String> correct = new ArrayList<String>();
+        ArrayList<String> correct = new ArrayList<>();
         correct.add("Audi");
         correct.add("BMW");
         correct.add("Toyota");
@@ -36,7 +36,7 @@ public class OrganiseTest {
     void testNameSortingBackward() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortName(VehicleList, "Backwards");
-        ArrayList<String> correct = new ArrayList<String>();
+        ArrayList<String> correct = new ArrayList<>();
         correct.add("Toyota");
         correct.add("BMW");
         correct.add("Audi");
@@ -54,7 +54,7 @@ public class OrganiseTest {
     void testEngineSortingHighest() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortEngine(VehicleList, "Highest");
-        ArrayList<Integer> correct = new ArrayList<Integer>();
+        ArrayList<Integer> correct = new ArrayList<>();
         correct.add(2500);
         correct.add(1500);
         correct.add(1000);
@@ -67,7 +67,7 @@ public class OrganiseTest {
     void testEngineSortingLowest() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortEngine(VehicleList, "Lowest");
-        ArrayList<Integer> correct = new ArrayList<Integer>();
+        ArrayList<Integer> correct = new ArrayList<>();
         correct.add(1000);
         correct.add(1500);
         correct.add(2500);
@@ -85,7 +85,7 @@ public class OrganiseTest {
     void testPriceSortingHighest() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortPrice(VehicleList, "Highest");
-        ArrayList<Double> correct = new ArrayList<Double>();
+        ArrayList<Double> correct = new ArrayList<>();
         correct.add(65000.0);
         correct.add(15000.0);
         correct.add(5000.0);
@@ -98,7 +98,7 @@ public class OrganiseTest {
     void testPriceSortingLowest() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortPrice(VehicleList, "Lowest");
-        ArrayList<Double> correct = new ArrayList<Double>();
+        ArrayList<Double> correct = new ArrayList<>();
         correct.add(5000.0);
         correct.add(15000.0);
         correct.add(65000.0);
@@ -116,7 +116,7 @@ public class OrganiseTest {
     void testMilesSortingHighest() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortMiles(VehicleList, "Highest");
-        ArrayList<Integer> correct = new ArrayList<Integer>();
+        ArrayList<Integer> correct = new ArrayList<>();
         correct.add(120123);
         correct.add(5678);
         correct.add(0);
@@ -129,7 +129,7 @@ public class OrganiseTest {
     void testMilesSortingLowest() {
         int index = 0;
         ArrayList<Vehicle> sorted = O1.sortMiles(VehicleList, "Lowest");
-        ArrayList<Integer> correct = new ArrayList<Integer>();
+        ArrayList<Integer> correct = new ArrayList<>();
         correct.add(0);
         correct.add(5678);
         correct.add(120123);

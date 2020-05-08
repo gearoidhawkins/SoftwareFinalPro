@@ -3,10 +3,9 @@ package ie.gmit;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class BikeTest {
+class BikeTest {
 
     private Bike b1;
 
@@ -17,12 +16,12 @@ public class BikeTest {
 
     @Test
     void testHasBoxSuccess() {
-        assertEquals(true, b1.isHasTransportBox());
+        assertTrue( b1.isHasTransportBox());
     }
 
     @Test
     void testHasSeatSuccess() {
-        assertEquals(true, b1.isHasPassengerSeat());
+        assertTrue( b1.isHasPassengerSeat());
     }
 
     @Test

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/FinanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/FinanceTest.java" afterDir="false" />
+    <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="changed variables to private that did not need to be public">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/BikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/OrganiseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/OrganiseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/TruckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TruckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" afterDir="false" />
     </list>
     <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -150,7 +155,7 @@
       <workItem from="1588858453046" duration="437000" />
       <workItem from="1588860871329" duration="3122000" />
       <workItem from="1588876863238" duration="7868000" />
-      <workItem from="1588931690732" duration="2740000" />
+      <workItem from="1588931690732" duration="3140000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>
@@ -229,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588934177406</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="100% code coverage">
+      <created>1588934569372</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588934569372</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +267,8 @@
     <MESSAGE value="tests" />
     <MESSAGE value="Included Jacoco" />
     <MESSAGE value="Brought code coverage from 85% to 99%. Only finance left to do" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brought code coverage from 85% to 99%. Only finance left to do" />
+    <MESSAGE value="100% code coverage" />
+    <MESSAGE value="changed variables to private that did not need to be public" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed variables to private that did not need to be public" />
   </component>
 </project>

@@ -3,10 +3,9 @@ package ie.gmit;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class CarTest {
+class CarTest {
 
     private Car c1;
 
@@ -20,7 +19,7 @@ public class CarTest {
     void testisRightSuccess()
     {
         Car c2 = new Car(true, 3, "Hatchback");
-        assertEquals(true, c2.isRightHandDrive());
+        assertTrue( c2.isRightHandDrive());
     }
 
     @Test

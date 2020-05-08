@@ -3,10 +3,9 @@ package ie.gmit;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class TractorTest {
+class TractorTest {
 
     private Tractor t1;
 
@@ -27,7 +26,7 @@ public class TractorTest {
 
     @Test
     void testIs4WDSuccess() {
-        assertEquals(true, t1.isIs4WD());
+        assertTrue( t1.isIs4WD());
     }
 
     @Test

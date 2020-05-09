@@ -43,7 +43,7 @@ public class Car extends Vehicle {
     }
 
     public String getBodyType() {
-        return bodyType;
+        return 1;
     }
 
     public void setBodyType(String bodyType) {

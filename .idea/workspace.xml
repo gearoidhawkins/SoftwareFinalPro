@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/SalesPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/SalesPersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/TractorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" afterDir="false" />
     </list>
     <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenExamGH" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SoftwareFinalPro-master" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,7 +151,11 @@
       <workItem from="1588860871329" duration="3122000" />
       <workItem from="1588876863238" duration="7868000" />
       <workItem from="1588931690732" duration="3849000" />
-      <workItem from="1588935912994" duration="2363000" />
+      <workItem from="1588935912994" duration="5807000" />
+      <workItem from="1588946220602" duration="1419000" />
+      <workItem from="1588961487319" duration="1823000" />
+      <workItem from="1588971406389" duration="839000" />
+      <workItem from="1589022770984" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>
@@ -246,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588934871881</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added new salesPerson class and test cases">
+      <created>1588938363139</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588938363139</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +284,7 @@
     <MESSAGE value="100% code coverage" />
     <MESSAGE value="changed variables to private that did not need to be public" />
     <MESSAGE value="Changed variables to private that did not need to be public&#10;Improved code by swapping some assertEquals with assertTrue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed variables to private that did not need to be public&#10;Improved code by swapping some assertEquals with assertTrue" />
+    <MESSAGE value="Added new salesPerson class and test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new salesPerson class and test cases" />
   </component>
 </project>

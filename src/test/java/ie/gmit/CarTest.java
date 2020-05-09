@@ -31,7 +31,7 @@ class CarTest {
     @Test
     void testBodyTypeSuccess() {
         Car c3 = new Car(true, 3, "Estate");
-        assertEquals("Estateqwe", c3.getBodyType());
+        assertEquals("Estate", c3.getBodyType());
     }
 
     @Test

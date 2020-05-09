@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9cd0ba5-7539-448a-9235-4c176269ec83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CarTest.java" afterDir="false" />
     </list>
     <list id="d41e49c5-a532-4101-9d9a-c76d1dbcbd58" name="ignoreTest" comment="" />
@@ -155,7 +154,7 @@
       <workItem from="1588946220602" duration="1419000" />
       <workItem from="1588961487319" duration="1823000" />
       <workItem from="1588971406389" duration="839000" />
-      <workItem from="1589022770984" duration="662000" />
+      <workItem from="1589022770984" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588938363139</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="video demo fail">
+      <created>1589023453510</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589023453510</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +291,7 @@
     <MESSAGE value="changed variables to private that did not need to be public" />
     <MESSAGE value="Changed variables to private that did not need to be public&#10;Improved code by swapping some assertEquals with assertTrue" />
     <MESSAGE value="Added new salesPerson class and test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new salesPerson class and test cases" />
+    <MESSAGE value="video demo fail" />
+    <option name="LAST_COMMIT_MESSAGE" value="video demo fail" />
   </component>
 </project>

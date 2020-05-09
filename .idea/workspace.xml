@@ -152,7 +152,7 @@
       <workItem from="1588946220602" duration="1419000" />
       <workItem from="1588961487319" duration="1823000" />
       <workItem from="1588971406389" duration="839000" />
-      <workItem from="1589022770984" duration="1618000" />
+      <workItem from="1589022770984" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>
@@ -280,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589024096624</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="video demo fauil">
+      <created>1589024624724</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589024624724</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +319,7 @@
     <MESSAGE value="Added new salesPerson class and test cases" />
     <MESSAGE value="video demo fail" />
     <MESSAGE value="video demo pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="video demo pass" />
+    <MESSAGE value="video demo fauil" />
+    <option name="LAST_COMMIT_MESSAGE" value="video demo fauil" />
   </component>
 </project>

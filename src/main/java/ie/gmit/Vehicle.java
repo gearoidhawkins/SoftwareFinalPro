@@ -1,3 +1,14 @@
+/*
+Software Engineering with Test
+Delivery Pipeline Project
+
+Author:  Gearoid Hawkins
+Email: G00308088@gmit.ie
+Date:  07/05/2020
+
+Description:
+    Vehicle class that is used as a base class for some other classes.
+ */
 package ie.gmit;
 
 public class Vehicle {

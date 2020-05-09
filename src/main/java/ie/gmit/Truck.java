@@ -1,3 +1,14 @@
+/*
+Software Engineering with Test
+Delivery Pipeline Project
+
+Author:  Gearoid Hawkins
+Email: G00308088@gmit.ie
+Date:  07/05/2020
+
+Description:
+    Truck class that that inherits from the vehicle class.
+ */
 package ie.gmit;
 
 import java.util.ArrayList;

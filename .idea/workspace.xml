@@ -154,7 +154,7 @@
       <workItem from="1588946220602" duration="1419000" />
       <workItem from="1588961487319" duration="1823000" />
       <workItem from="1588971406389" duration="839000" />
-      <workItem from="1589022770984" duration="917000" />
+      <workItem from="1589022770984" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="fix merge">
       <created>1588865779658</created>
@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589023453510</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="video demo pass">
+      <created>1589023695685</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589023695685</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +299,7 @@
     <MESSAGE value="Changed variables to private that did not need to be public&#10;Improved code by swapping some assertEquals with assertTrue" />
     <MESSAGE value="Added new salesPerson class and test cases" />
     <MESSAGE value="video demo fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="video demo fail" />
+    <MESSAGE value="video demo pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="video demo pass" />
   </component>
 </project>

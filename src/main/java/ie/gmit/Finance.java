@@ -35,8 +35,10 @@ public class Finance {
             throw new IllegalArgumentException("No vehicles in the list");
         }
         else {
-            double total = calculateTotal(myList);
+            double totalNoVAT = calculateTotal(myList);
+            double VAT = calculateVAT(myList);
             double monthly;
+            double total = totalNoVAT + VAT;
             double rounded=0;
             if(rate <= 10) {
                 total += (total / 100) * rate;

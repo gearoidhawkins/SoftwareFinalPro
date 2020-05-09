@@ -30,7 +30,7 @@ class FinanceTest {
     }
     @Test
     void testMonthlyPaymentSuccess() {
-        assertEquals(1859.38, f1.monthlyPayments(VehicleList, 4, 5));
+        assertEquals(2287.03, f1.monthlyPayments(VehicleList, 4, 5));
     }
 
     @Test

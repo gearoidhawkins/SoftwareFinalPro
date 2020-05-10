@@ -1,3 +1,14 @@
+/*
+Software Engineering with Test
+Delivery Pipeline Project
+
+Author:  Aaron McKinley
+Email: G00299523@gmit.ie
+Date:  07/05/2020
+
+Description:
+    JUnit tests for the Organise class
+ */
 package ie.gmit;
 
 import org.junit.jupiter.api.BeforeEach;

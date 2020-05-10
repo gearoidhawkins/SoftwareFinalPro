@@ -1,3 +1,14 @@
+/*
+Software Engineering with Test
+Delivery Pipeline Project
+
+Author:  Gearoid Hawkins
+Email: G00308088@gmit.ie
+Date:  08/05/2020
+
+Description:
+    JUnit tests for the SalesPerson class
+ */
 package ie.gmit;
 
 import org.junit.jupiter.api.BeforeEach;

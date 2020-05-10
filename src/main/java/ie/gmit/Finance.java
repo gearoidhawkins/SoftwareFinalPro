@@ -1,3 +1,14 @@
+/*
+Software Engineering with Test
+Delivery Pipeline Project
+
+Author:  Aaron McKinley
+Email: G00299523@gmit.ie
+Date:  07/05/2020
+
+Description:
+    Finance class to be used with the base classes.
+ */
 package ie.gmit;
 
 import java.util.ArrayList;

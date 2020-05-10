@@ -143,28 +143,4 @@ class OrganiseTest {
         Exception e = assertThrows(IllegalArgumentException.class, () -> O1.sortMiles(VehicleList, "test") );
         assertEquals("No filter chosen", e.getMessage());
     }
-//    @Test
-//    void testVATCalculation() {
-//        assertEquals(19550, O1.calculateVAT(VehicleList));
-//    }
-//    @Test
-//    void testMonthlyPayment() {
-//        assertEquals(1859.38, f1.monthlyPayments(VehicleList, 4, 5));
-//    }
-//
-//    @Test
-//    void testListError() {
-//        Exception e = assertThrows(IllegalArgumentException.class, () -> f1.calculateTotal(NoVehiclesList) );
-//        assertEquals("No vehicles in the list", e.getMessage());
-//    }
-//    @Test
-//    void testInterestError() {
-//        Exception e = assertThrows(IllegalArgumentException.class, () -> f1.monthlyPayments(VehicleList, 4, 20) );
-//        assertEquals("Interest Rate is too high as its >10%", e.getMessage());
-//    }
-//    @Test
-//    void testLoanLength() {
-//        Exception e = assertThrows(IllegalArgumentException.class, () -> f1.monthlyPayments(VehicleList, 6, 5) );
-//        assertEquals("Loan length is too long >5 years", e.getMessage());
-//    }
 }
